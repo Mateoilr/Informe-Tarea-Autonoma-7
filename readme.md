@@ -26,7 +26,7 @@
 
 **Docker Compose** es una herramienta que permite definir y ejecutar aplicaciones Docker multi-contenedor. Mediante un archivo YAML (`docker-compose.yml`), se pueden configurar todos los servicios de una aplicación, sus redes, volúmenes y dependencias. Con un solo comando, Docker Compose puede levantar toda la infraestructura necesaria.
 
-![Docker Compose](https://miro.medium.com/v2/resize:fit:1400/1*FCqPJqpSrddfWKlh1sEjxg.png)
+![Docker Compose](https://adictosaltrabajo.com/wp-content/uploads/2015/11/docker_compose_imagen3-1024x543.png)
 *Figura 3-2. Docker Compose orquestando múltiples contenedores*
 
 ### Multi-Stage Builds
