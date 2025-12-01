@@ -141,7 +141,7 @@ cd "c:\Users\User\Desktop\Cuarto Ciclo\Tendencias\TA7\Tarea"
 git clone https://github.com/maguaman2/tendencias-mar22-security.git backend-app
 ```
 
-<img src="Capturas/figura-8-2-clonacion-repositorio.png" alt="Clonación repositorio" width="800"/>
+<img src="Capturas/figura-8-2-clonar-repositorio.png" alt="Clonación repositorio" width="800"/>
 
 *Figura 8-2. Clonación exitosa del repositorio con la aplicación backend*
 
@@ -450,10 +450,6 @@ docker-compose logs -f
 docker-compose up -d --build backend-app
 ```
 
-<img src="Capturas/figura-8-15-diagrama-arquitectura.png" alt="Comandos gestión" width="800"/>
-
-*Figura 8-15. Diagrama de arquitectura final con los tres contenedores comunicándose*
-
 ## 9. Resultados esperados
 
 Al completar esta práctica correctamente, se deben obtener los siguientes resultados:
@@ -465,7 +461,7 @@ Al completar esta práctica correctamente, se deben obtener los siguientes resul
   - `pgadmin-panel`: Panel de administración accesible en http://localhost:5050
   - `spring-backend`: Aplicación Spring Boot accesible en http://localhost:8081
 
-<img src="Capturas/figura-9-1-docker-desktop-contenedores.png" alt="Contenedores funcionando" width="800"/>
+<img src="Capturas/figura-9-1-contenedores-funcionando.png" alt="Contenedores funcionando" width="800"/>
 
 *Figura 9-1. Vista de Docker Desktop mostrando los tres contenedores activos*
 
@@ -487,7 +483,7 @@ Los datos persisten incluso al detener y reiniciar los contenedores.
 - pgAdmin puede administrar la base de datos usando el nombre de servicio interno
 - Todos los servicios están en la red `backend-network`
 
-<img src="Capturas/figura-9-3-network-inspect.png" alt="Network configurada" width="800"/>
+<img src="Capturas/figura-9-3-network-configurada.png" alt="Network configurada" width="800"/>
 
 *Figura 9-3. Inspección de la red Docker mostrando los tres servicios conectados*
 
@@ -497,7 +493,7 @@ Los datos persisten incluso al detener y reiniciar los contenedores.
 - Migraciones de Flyway ejecutadas correctamente
 - Tablas de la aplicación creadas y accesibles desde pgAdmin
 
-<img src="Capturas/figura-9-4-pgadmin-vista-tablas.png" alt="pgAdmin tablas" width="800"/>
+<img src="Capturas/figura-9-4-pgadmin-tablas.png" alt="pgAdmin tablas" width="800"/>
 
 *Figura 9-4. Vista de pgAdmin mostrando la base de datos y sus tablas*
 
